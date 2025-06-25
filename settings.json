@@ -1,0 +1,43 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "agent": {
+    "default_profile": "ask",
+    "model_parameters": [],
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3.7-sonnet"
+    },
+    "version": "2"
+  },
+  "terminal": {
+    "dock": "bottom"
+  },
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+  "tab_size": 2,
+  "relative_line_numbers": true,
+  "autosave": "on_window_change",
+  "format_on_save": "off",
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "icon_theme": "Catppuccin Mocha",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 12,
+  "ui_font_family": "Roboto",
+  "ui_font_size": 14,
+  "agent_font_size": 14
+}
