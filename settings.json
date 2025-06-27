@@ -20,7 +20,7 @@
     "version": "2"
   },
   "terminal": {
-    "dock": "bottom"
+    "dock": "right"
   },
   "base_keymap": "VSCode",
   "vim_mode": true,

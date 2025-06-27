@@ -54,5 +54,11 @@
       "ctrl-j": ["terminal::SendKeystroke", "ctrl-j"],
       "ctrl-k": ["terminal::SendKeystroke", "ctrl-k"]
     }
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "shift-x": "vim::Exchange"
+    }
   }
 ]
